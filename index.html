@@ -16,9 +16,23 @@
 
 <body>
 
+<script>
+  function mostrar(num)
+  {
+    if(document.getElementById(num).style.display == "none")
+      document.getElementById(num).style.display="block";
+    else
+      document.getElementById(num).style.display="none";
+  }
+</script>
+
+
 <h2>Pablo Muñoz</h2>
 
-<h2><a href="https://pmunoz.es/_pages/publications.html">PUBLICATIONS</a></h2>
+<h2 onclick="mostrar('publications')" style="cursor: pointer">PUBLICATIONS</h2>
+<div id="publications" style="display: none">
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2Fmunozp%2Fmunozp.github.io%2Fmaster%2F_bibliography%2Fpmunoz.bib&jsonp=1"></script> 
+</div>
 
 <p>
 Research Engineer, Science [&] Technology
@@ -35,7 +49,7 @@ Intelligent Systems Group associated researcher
 </div>
  
 
-<h2>Welcome</h2>
+<h2>Bio</h2>
     
 <p>
 <i>"A Journey of a thousand miles begins with a single step"</i> - Lao Tzu. As usually, my journey starts standing on the shoulders of my parents. They gave me the opportunity to complete a degree in Engineer in Computer Science (2009) and a masters in Space Technology and Science (2010) at the <a href="https://www.uah.es" target="_blank">University of Alcalá</a>. Then, I started to walk with my PhD advisor, <a href="https://atc1.aut.uah.es/~mdolores" target="_blank">Dr. María Dolores Rodríguez Moreno</a>, purshing a PhD in autonomous robots funded by the <a href="https://www.esa.int/ESA" target="_blank">ESA</a> NPI programme project "Cooperative Systems for Autonomous Exploration Missions". Sometimes my trip took me to Rome, where I was able to learn important lessons (yes Amedeo, I did) from my co-advisor, <a href="https://www.istc.cnr.it/en/people/amedeo-cesta" target="_blank">Dr. Amedeo Cesta</a>, and the <a href="https://www.istc.cnr.it/en/group/pst" target="_blank">PST team</a> (with special thanks to <a href="https://www.istc.cnr.it/en/people/andrea-orlandini" target="_blank">Dr. Andrea Orlandini</a>). That part of the travel had slopes, frustrations and wins, culminating with my PhD defense on November 2016 in the Space Technology program.
