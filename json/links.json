@@ -1,0 +1,20 @@
+[
+    {
+        "name": "LinkedIn",
+        "color": "blue",
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/pablomunozmartinez"
+	},
+    {
+        "name": "GitHub",
+        "color": "black",
+        "icon": "github-box",
+        "url": "https://github.com/munozp"
+	},
+    {
+        "name": "Email",
+        "color": "black",
+        "icon": "email",
+        "url": "mailto:pablo.munoz-AT-uah.es"
+	}
+]
