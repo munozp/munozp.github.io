@@ -36,8 +36,8 @@
 		"color": "red"
 	},
     {
-        "name": "UP2TA - Unified Framework for Path & Task Planning",
-        "description": "<p>UP2TA - Unified Framework for Path Planning & Task Planning Architecture is an AI planner that interleaves path planning and task planning for mobile robotics applications. The planner integrates a modified PDDL planner with a path planning algorithm, combining domain-independent heuristics and a domain-specific heuristic for path planning. Then, UP2TA can generate shorter paths while performing hierarchical tasks in an efficient ordered way. <p>Source code is available at: <a href=\"https://github.com/ISG-UAH/up2ta\" target=\"_blank\">GitHub</a></p><p>Research article: <a href=\"https://doi.org/10.1016/j.robot.2016.04.010\" target=\"_blank\"><i class=\"link_icon mdi mdi-file-pdf\" style=\"color: red\"></i>&nbsp;UP2TA article</a></p>",
+        "name": "UP2TA - Unified Path & Task Planning Architecture",
+        "description": "<p>UP2TA - Unified Path Planning & Task Planning Architecture is an AI planner that interleaves path planning and task planning for mobile robotics applications. The planner integrates a modified PDDL planner with a path planning algorithm, combining domain-independent heuristics and a domain-specific heuristic for path planning. Then, UP2TA can generate shorter paths while performing hierarchical tasks in an efficient ordered way. <p>Source code is available at: <a href=\"https://github.com/ISG-UAH/up2ta\" target=\"_blank\">GitHub</a></p><p>Research article: <a href=\"https://doi.org/10.1016/j.robot.2016.04.010\" target=\"_blank\"><i class=\"link_icon mdi mdi-file-pdf\" style=\"color: red\"></i>&nbsp;UP2TA article</a></p>",
         "image": "images/up2ta.png",
         "link": "https://www.youtube.com/watch?v=iRlg25wF6jw",
 		"linkname": "UP2TA video",
@@ -46,7 +46,7 @@
 	},
     {
         "name": "MoBAr - Model-Based Architecture",
-        "description": "<p>MoBAr - Model-Based Architecture is an autonomous robotic controller that allows on-board planning and replanning for goal oriented autonomy. It relies on technologies such as PLEXIL to model the execution behaviours, or the action oriented planning language PDDL for the domain definition and the planning process. Based on these technologies MoBAr enables an easier deployment of the autonomous controller for different robotics platforms. <p>Source code will be availabe at: <a href=\"https://github.com/munozp\" target=\"_blank\">GitHub</a></p><p>Research article: <a href=\"https://doi.org/10.1007/s10846-018-0810-z\" target=\"_blank\"><i class=\"link_icon mdi mdi-file-pdf\" style=\"color: red\"></i>&nbsp;MoBAr article</a></p>",
+        "description": "<p>MoBAr - Model-Based Architecture is an autonomous robotic controller that allows on-board planning and replanning for goal oriented autonomy. It relies on technologies such as PLEXIL to model the execution behaviours, or the action oriented planning language PDDL for the domain definition and the planning process. Based on these technologies MoBAr enables an easier deployment of the autonomous controller for different robotics platforms. <p>Source code is availabe for: <a href=\"https://github.com/ISG-UAH/mobar-turtlebot\" target=\"_blank\">TurtleBot</a> & <a href=\"https://github.com/ISG-UAH/mobar-manipulator\" target=\"_blank\">5DoF manipulator</a></p><p>Research article: <a href=\"https://doi.org/10.1007/s10846-018-0810-z\" target=\"_blank\"><i class=\"link_icon mdi mdi-file-pdf\" style=\"color: red\"></i>&nbsp;MoBAr article</a></p>",
         "image": "images/mobar.jpg",
         "link": "https://www.youtube.com/watch?v=igpn3k_gbRA",
 		"linkname": "MoBAr video",
