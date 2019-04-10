@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body style="background-color: #f5f6fa">
+<body style="background-color: #f5f6fa" onload="showNews()">
 
 <script>
 function toggleDisplay(name)
@@ -37,6 +37,35 @@ function showContainer(name)
 		toggleDisplay("publicationsItemContainer");
 	}
 }
+function sleep(ms) {
+	return new Promise(resolve => setTimeout(resolve, ms));
+}
+async function showNews()
+{
+	var news=["Welcome to my new website!",
+			"UP2TA source code is available at GitHub",
+			"LARES paper from ISG team is published",
+			"MoBAr source code is available at GitHub"
+			];
+	var links=["http://pmunoz.es",
+			 "https://github.com/ISG-UAH/up2ta",
+			 "https://doi.org/10.1016/j.cogsys.2019.03.019",
+			 "https://github.com/ISG-UAH/mobar-turtlebot"
+			];
+	for(i = 0; i < 9; i++)
+		for(n = 0; n < news.length; n++)
+		{
+			document.getElementById("newsbanner").innerHTML = "Last updates: ";
+			var str = news[n].split("");
+			var el = document.getElementById("newsbanner");
+			el.href = links[n];
+			(function animate() {
+				str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running); 
+				var running = setTimeout(animate, 90);
+			})();
+			await sleep(news[n].length * 111);
+		}
+}
 </script>
 
     <div>
@@ -46,7 +75,7 @@ function showContainer(name)
                 
                 <h2 id="heroName" class="center-align">Pablo Muñoz Martínez</h2>
                 <h4 id="description" class="center-align">Research Engineer at Science [&] Technology</h4>
-			 <h4 id="description" class="center-align">Intelligent Systems Group associated researcher</h4>
+			 <h4 id="description" class="center-align">Intelligent Systems Group associate researcher</h4>
 
                 <div id="socialLinkSection">
                     <section class="tab">
@@ -60,12 +89,14 @@ function showContainer(name)
 			 <a id="contactButton" class="waves-effect waves-grey btn-flat" onclick="showContainer('publications')"><p>Publications</p></a>
                 
             </div>
-            
+			
             <div id="portfolioColumn" class="col s12 m12 l8">
-                
+				
+			 <div class="card hoverable" style="overflow: hidden;"><div class="card-image waves-effect waves-block waves-light"></div><div class="card-content"><span class="card-title activator grey-text text-darken-4"><a href="pmunoz.es" target="_blank" id="newsbanner">Last updates: </a></span></div></div>
+			 
                 <div class="row" id="portfolioItemContainer">
 			 </div>
-				
+			 	
 			 <div class="row" id="publicationsItemContainer" style="display:none">
 			 <script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2Fmunozp%2Fmunozp.github.io%2Fmaster%2F_bibliography%2Fpmunoz.bib&jsonp=1"></script> 
                 </div>
