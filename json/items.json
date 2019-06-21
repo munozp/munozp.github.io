@@ -2,7 +2,7 @@
     {
         "name": "Bio & current situation",
         "description": "<p><i>\"A Journey of a thousand miles begins with a single step\"</i> - Lao Tzu. As usually, my journey starts standing on the shoulders of my parents. They gave me the opportunity to complete a degree in Engineer in Computer Science (2009) and a masters in Space Technology and Science (2010) at the <a href=\"https://www.uah.es\" target=\"_blank\">University of Alcalá</a>. Then, I started to walk with my PhD advisor, <a href=\"https://atc1.aut.uah.es/~mdolores\" target=\"_blank\">Dr. María Dolores Rodríguez Moreno</a>, purshing a PhD in autonomous robots funded by the <a href=\"https://www.esa.int/ESA\" target=\"_blank\">ESA</a> NPI programme project \"Cooperative Systems for Autonomous Exploration Missions\". Sometimes my trip took me to Rome, where I was able to learn important lessons from my co-advisor, <a href=\"https://www.istc.cnr.it/en/people/amedeo-cesta\" target=\"_blank\">Dr. Amedeo Cesta</a>, and the <a href=\"https://www.istc.cnr.it/en/group/pst\" target=\"_blank\">PST team</a> (with special thanks to <a href=\"https://www.istc.cnr.it/en/people/andrea-orlandini\" target=\"_blank\">Dr. Andrea Orlandini</a>). That part of the travel had slopes, frustrations and wins, culminating with my <a href=\"https://ebuah.uah.es/dspace/handle/10017/29262\" target=\"_blank\">PhD defense on November 2016 in the Space Technology program</a>.</p><p>During my PhD I supervised undergraduate and masters students, helped with teaching, participated in projects proposal writing (for Spanish calls, FP7, H2020 and ESA ITTs), worked in different projects as a member of the <a href=\"http://isg.aut.uah.es\" target=\"_blank\">Intelligent Systems Group</a>, I was part of the organizing committee of 2 international congresses and reviewer for various conferences and journals and as result of my research I published several <a href=\"\">journal</a> and <a href=\"\">conference</a> papers.</p>My research interests are focused on autonomous robots from a high level perspective, considering decision systems (such as Planning & Scheduling) and hierarchical tasks descriptions. I specially focus my work towards space missions, but some of my assets can be applied to closer problems, for instance, telecare, surveillance or package delivery robots. Also, I like to work in other areas related to the Artificial Intelligence, applying new solutions to solve specific problems, for example, using Machine Learning techniques for a quality control service in industrial processes.</p><p><b>Currently</b>, I am working for the <a href=\"http://stcorp.nl\" target=\"_blank\">Science [&] Technology Corporation</a> in Delft (The Netherlands) as scientific employee, participating in the <a href=\"https://www.cerbero-h2020.eu\" target=\"_blank\">H2020 CERBERO</a> project. Particularly, my role is to enhance a previous decision support system (MECA) for its application to a smart travelling scenario with an electric car. Previously, I worked as a researcher at the University of Alcalá (post and pre-doctoral), participating in several research and industrial projects (one as PI). Looking more in the past, I worked as helpdesk and IT technician and my first job was basketball referee.</p>",
-        "image": "pmunoz.es/images/delft.jpg",
+        "image": "images/delft.jpg",
         "link": "https://pmunoz.es",
 		"linkname": "&nbsp;",
 		"icon": "",
@@ -11,8 +11,8 @@
     {
         "name": "Brief skills & CV",
         "description": "<p>I do not see problems, only solutions. I am very tidy which helps me to handle complex systems. Also, I am a good architect for defining and implementing solutions that involve not only software but hardware (see for instance the MoBAr controller or the OGATE tool). </p><p>I can manage and supervise of small teams. Particularly, I supervised the LARES project (3 undergraduate students and 2 PhD), an perfomed an industrial research project for Profine Iberia S.A. (6 researchers) as a PI. and I worked in the organizing committee of the SMC-IT 2017 international conference. I participated in several research projects proposals and as a reveiwer in international conferences and journals.</p><p>I have experience in teaching (more than 120 teaching hours in the university) and supervising undergraduate students (I supervised 4 B.D. and 2 M.D. dissertations). Currently I co-advise one PhD student.  I participated as speaker in multiple international conferences and as a session chair in two conferences.</p>",
-        "image": "pmunoz.es/images/alcala.jpg",
-        "link": "pmunoz.es/assets/CV-pmunoz.pdf",
+        "image": "images/alcala.jpg",
+        "link": "assets/CV-pmunoz.pdf",
 		"linkname": "Download CV (pdf)",
 		"icon": "file-pdf",
 		"color": "red"
@@ -20,7 +20,7 @@
     {
         "name": "OGATE",
         "description": "<p>OGATE - On-Ground Autonomy Test Environment is a framework for plan-based controllers assessment supported on a set of generally applicable metrics to entail evaluation of different aspects of autonomous robotics controllers. These metrics are operationalized in the OGATE software, a domain independent tool that automatically carries on with controller assessments.</p><p>The OGATE Research & Development was funded by the European Space Agency (ESA) under the Networking and Partnering Initiative project <i>Cooperative Systems for Autonomous Exploration Missions</i>.</p><p>Research article: <a href=\"https://ieeexplore.ieee.org/document/8227546\" target=\"_blank\"><i class=\"link_icon mdi mdi-file-pdf\" style=\"color: red\"></i>&nbsp;OGATE SMC-IT 2017</a></p>",
-        "image": "pmunoz.es/images/ogate.png",
+        "image": "images/ogate.png",
         "link": "https://www.youtube.com/watch?v=sqF0uFA1w_8",
 		"linkname": "OGATE video",
 		"icon": "youtube-play",
@@ -29,7 +29,7 @@
     {
         "name": "3Dana - 3D Accurate Navigation Algorithm",
         "description": "<p>3Dana - 3D Accurate Navigation Algorithm is a path planning algorithm focused on generating safer paths for mobile robots in uneven environments. It considers different parameters to maximize the path quality such as the maximum slope allowed by the robot and the heading changes during the path. These constraints allow discarding infeasible paths while minimizing the heading changes for route optimization. <p>Source code will be availabe at: <a href=\"https://github.com/munozp\" target=\"_blank\">GitHub</a></p><p>Research article: <a href=\"https://doi.org/10.1016/j.engappai.2017.02.010\" target=\"_blank\"><i class=\"link_icon mdi mdi-file-pdf\" style=\"color: red\"></i>&nbsp;3Dana article</a></p>",
-        "image": "pmunoz.es/images/3dana.png",
+        "image": "images/3dana.png",
         "link": "https://doi.org/10.1016/j.engappai.2017.02.010",
 		"linkname": "3Dana paper",
 		"icon": "file-pdf",
@@ -38,7 +38,7 @@
     {
         "name": "UP2TA - Unified Path & Task Planning Architecture",
         "description": "<p>UP2TA - Unified Path Planning & Task Planning Architecture is an AI planner that interleaves path planning and task planning for mobile robotics applications. The planner integrates a modified PDDL planner with a path planning algorithm, combining domain-independent heuristics and a domain-specific heuristic for path planning. Then, UP2TA can generate shorter paths while performing hierarchical tasks in an efficient ordered way. <p>Source code is available at: <a href=\"https://github.com/ISG-UAH/up2ta\" target=\"_blank\">GitHub</a></p><p>Research article: <a href=\"https://doi.org/10.1016/j.robot.2016.04.010\" target=\"_blank\"><i class=\"link_icon mdi mdi-file-pdf\" style=\"color: red\"></i>&nbsp;UP2TA article</a></p>",
-        "image": "pmunoz.es/images/up2ta.png",
+        "image": "images/up2ta.png",
         "link": "https://www.youtube.com/watch?v=iRlg25wF6jw",
 		"linkname": "UP2TA video",
 		"icon": "youtube-play",
@@ -47,7 +47,7 @@
     {
         "name": "MoBAr - Model-Based Architecture",
         "description": "<p>MoBAr - Model-Based Architecture is an autonomous robotic controller that allows on-board planning and replanning for goal oriented autonomy. It relies on technologies such as PLEXIL to model the execution behaviours, or the action oriented planning language PDDL for the domain definition and the planning process. Based on these technologies MoBAr enables an easier deployment of the autonomous controller for different robotics platforms. <p>Source code is availabe for: <a href=\"https://github.com/ISG-UAH/mobar-turtlebot\" target=\"_blank\">TurtleBot</a> & <a href=\"https://github.com/ISG-UAH/mobar-manipulator\" target=\"_blank\">5DoF manipulator</a></p><p>Research article: <a href=\"https://doi.org/10.1007/s10846-018-0810-z\" target=\"_blank\"><i class=\"link_icon mdi mdi-file-pdf\" style=\"color: red\"></i>&nbsp;MoBAr article</a></p>",
-        "image": "pmunoz.es/images/mobar.jpg",
+        "image": "images/mobar.jpg",
         "link": "https://www.youtube.com/watch?v=igpn3k_gbRA",
 		"linkname": "MoBAr video",
 		"icon": "youtube-play",
