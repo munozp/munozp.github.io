@@ -18,6 +18,15 @@
 		"color": "red"
 	},
 	{
+        "name": "Geomagnetic indices forecasting using ML",
+        "description": "<p>Machine Learning applications are conquering new areas taking advantage of the availability of large amounts of data. Considering space probes such as ACE that are providing information about the solar wind at the L1 point for more than 25 years, it is feasible that Machine Learning approaches can be applied to the space weather context. We are working toward Deep Neural Networks models to forecast SYM-H and ASY-H indices (that quantify the disturbance of the Earth's magnetosphere) for the next 1 and 2 hours. The goal of the work is to drive an operational geomagnetic indices forecasting system that can minimize the damages caused by geomagnetic storms, providing an alert ahead enough to take containment measures. The operative models will be available at the <a href=\"http://www.senmes.es\">Spanish Space Weather Service</a>. The current model is published on the Space Weather Journal (see link below).</p>",
+        "image": "images/mlsw.jpg",
+        "link": "https://doi.org/10.1029/2021SW002748",
+		"linkname": "Paper on Space Weather Journal",
+		"icon": "file-pdf",
+		"color": "red"
+	},
+	{
         "name": "Fall simulator",
         "description": "<p>Some projects are trying to enhance the independence of elderly people by monitoring their status (e.g., our LARES project), typically by means of wearable devices. These devices often feature Machine Learning (ML) algorithms for fall detection using accelerometers. However, the software deployed often lacks reliable data for the models’ training. To overcome such an issue, we have developed a publicly available fall simulator capable of recreating accelerometer fall samples of two of the most common types of falls: syncope and forward. Those simulated samples are like real falls recorded using real accelerometers in order to use them later as input for ML applications. </p><p>The simulator is available at GitHub: <a href=\"https://github.com/ISG-UAH/ISG_FallSimulator\">ISG-UAH at GitHub</a></p>",
         "image": "images/fallsim.png",
