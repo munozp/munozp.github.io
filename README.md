@@ -1,5 +1,5 @@
 # personal-website
-Source code of my personal web site, available on https://pmunoz.es
+Source code of my personal web site, available at https://munozp.github.io/
 
 
 # Contributors
