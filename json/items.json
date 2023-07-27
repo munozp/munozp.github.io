@@ -27,7 +27,7 @@
 		"color": "red"
 	},
 	{
-        "name": "HosPlan: Machine Learning methods for predicting hospital's ED admissions",
+        "name": "HosPlan: ML methods for predicting hospital's ED admissions",
         "description": "<p>Hospitals’ Emergency Departments (ED) have a great relevance in the health of the population. Properly managing the ED department requires to optimise the service, while maintaining a high quality care. In this regard, a key point is to know in advance how many patients will arrive to the service. In this project we aim to forecast ED admissions and hospitalisations for both seven days and four months ahead, providing a web application to handle the hospital's staff to avoid overcrowding.</p><p>HosPlan was funded by the Ministerio de Ciencia e Innovación (PID2019-109891RB-I00) and Junta de Comunidades de Castilla-La Mancha (SBPLY/19/180501/000024) project \"Mejora de la gestión de recursos hospitalarios mediante la predicción de la demanda con Aprendizaje Automático y Planificación\".</p>",
         "image": "images/hosplan.png",
         "link": "https://doi.org/10.1007/s10844-023-00790-4",
