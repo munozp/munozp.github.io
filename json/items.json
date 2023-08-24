@@ -37,7 +37,7 @@
 	},
 	{
         "name": "Quality control in PVC extrusion",
-        "description": "<p>We developed a prototype quality control module for PVC extrusion lines. The prototype was developed in less than 6 months using computer vision algorithms to detect faults on both visible faces of PVC frames. It was designed to be easily incorporated into a production line during operation, avoiding production stoppages. It was supported and tested by <a href=\"\https://www.kommerling.es/">Profine Iberia S.A.</a></p>",
+        "description": "<p>We developed a prototype quality control module for PVC extrusion lines. The prototype was developed in less than 6 months using computer vision algorithms to detect faults on both visible faces of PVC frames. It was designed to be easily incorporated into a production line during operation, avoiding production stoppages. It was supported and tested by <a href=\"https://www.kommerling.es/\">Profine Iberia S.A.</a></p>",
         "image": "images/profine.png",
         "link": "https://youtube.com/shorts/7A_yCFqiL0E?feature=share",
 		"linkname": "Development video",
