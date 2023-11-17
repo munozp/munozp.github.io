@@ -13,12 +13,215 @@
     <link type="text/css" rel="stylesheet" href="css/materialdesignicons.min.css" media="all" />
     <meta name="theme-color" content="#f5f6fa">
     <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:500,600,700" rel="stylesheet">
-    <!-- If you want Google Analytics, do some Google searching, and pop it here. -->
-    <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body style="background-color: #f5f6fa">
+
+<div class="row">
+
+<div id="profileColumn" class="col s12 l4 center">
+	<img id="profileImage" src="images/pmm.png" class="z-depth-3 circle responsive-img" />
+	
+	<h2 id="heroName" class="center-align">Pablo Muñoz Martínez</h2>
+	<h4 id="description" class="center-align">Lecturer at University of Alcalá</h4>
+	<!--<h4 id="description" class="center-align"><a href="LINK">Subtitle</a></h4>-->
+
+	<div id="socialLinkSection">
+	<section class="tab">
+	<div id="socialLinkContent">
+		<div class="links waves-effect">
+			<a href="https://www.linkedin.com/in/pablomunozmartinez" class="black-text valign-wrapper" target="_blank"><i class="link_icon mdi mdi-linkedin" style="color: blue"></i>&nbsp; LinkedIn</a>
+		</div>
+		<div class="links waves-effect">
+			<a href="https://github.com/munozp" class="black-text valign-wrapper" target="_blank"><i class="link_icon mdi mdi-github-box" style="color: black"></i>&nbsp; GitHub</a>
+		</div>
+		<div class="links waves-effect">
+			<a href="mailto:pablo.munoz-AT-uah.es" class="black-text valign-wrapper" target="_blank"><i class="link_icon mdi mdi-email" style="color: black"></i>&nbsp; Email</a>
+		</div>
+	</div>
+	</section>
+	</div>
+	
+	<a id="contactButton" class="waves-effect waves-grey btn-flat" onclick="showContainer('portfolio')"><p>Info & Projects</p></a>
+	<br>
+	<a id="contactButton" class="waves-effect waves-grey btn-flat" onclick="showContainer('publications')"><p>Publications</p></a>
+	<br>
+	<!--<a id="contactButton" class="waves-effect waves-grey btn-flat" onclick="showContainer('teaching')"><p>Teaching (in spanish)</p></a>-->
+	
+</div>
+	
+<div id="portfolioColumn" class="col s12 m12 l8">
+	<div class="row" id="portfolioItemContainer" style="display:block">
+
+	<div class="col s12 m6 l6"><div class="card hoverable"><div class="card-image waves-effect waves-block waves-light">
+	<img class="activator" src="images/eps.jpg">
+	</div>
+	<div class="card-content">
+	<span class="card-title activator grey-text text-darken-4">Bio &amp; current situation<i class="material-icons right">keyboard_arrow_up</i></span>
+	<p><i class="link_icon mdi mdi-" style="color: black"></i><a href="https://munozp.github.io/" target="_blank">&nbsp;&nbsp;</a></p>
+	</div>
+	<div class="card-reveal"><span class="card-title grey-text text-darken-4">Bio &amp; current situation<i class="material-icons right">close</i></span>
+	<p></p>
+	<p><i>"A Journey of a thousand miles begins with a single step"</i> - Lao Tzu. As usually, my journey starts standing on the shoulders of my parents. They gave me the opportunity to complete a degree in Engineer in Computer Science (2009) and a masters in Space Technology and Science (2010) at the <a href="https://www.uah.es" target="_blank">University of Alcalá</a>. Then, I started to walk with my PhD advisor, <a href="https://atc1.aut.uah.es/~mdolores" target="_blank">Dr. María Dolores Rodríguez Moreno</a>, purshing a PhD in autonomous robots funded by the <a href="https://www.esa.int/ESA" target="_blank">ESA</a> NPI programme project "Cooperative Systems for Autonomous Exploration Missions". Sometimes my trip took me to Rome, where I was able to learn important lessons from my co-advisor, <a href="https://www.istc.cnr.it/en/people/amedeo-cesta" target="_blank">Dr. Amedeo Cesta</a>, and the <a href="https://www.istc.cnr.it/en/group/pst" target="_blank">PST team</a> (with special thanks to <a href="https://www.istc.cnr.it/en/people/andrea-orlandini" target="_blank">Dr. Andrea Orlandini</a>). That part of the travel had slopes, frustrations and wins, culminating with my <a href="https://ebuah.uah.es/dspace/handle/10017/29262" target="_blank">PhD defense on November 2016 in the Space Technology program</a>.</p>
+	<p>During my PhD I supervised undergraduate and masters students, helped with teaching, participated in projects proposal writing (for Spanish calls, FP7, H2020 and ESA ITTs), worked in different projects as a member of the <a href="http://isg.aut.uah.es" target="_blank">Intelligent Systems Group</a>, I was part of the organizing committee of 2 international congresses and reviewer for various conferences and journals and as result of my research I published several <a href="">journal</a> and <a href="">conference</a> papers.</p>
+	<p>My research interests are focused on autonomous robots from a high level perspective, considering decision systems (such as Planning &amp; Scheduling) and hierarchical tasks descriptions. I specially focus my work towards space missions, but some of my assets can be applied to closer problems, for instance, telecare, surveillance or package delivery robots. Also, I like to work in other areas related to the Artificial Intelligence, applying new solutions to solve specific problems, for example, using Machine Learning techniques for a quality control service in industrial processes.</p>
+	<p>Previously, I worked for <a href="http://stcorp.nl" target="_blank">Science [&amp;] Technology</a> in Delft (The Netherlands) as scientific employee, participating in the <a href="https://www.cerbero-h2020.eu" target="_blank">H2020 CERBERO</a> and the ESA S5L2PP projects. I worked as a researcher at the University of Alcalá (post and pre-doctoral), participating in several research and industrial projects (two as PI). Looking more in the past, I worked as helpdesk and IT technician and my first job was basketball referee.</p>
+	<p><b>Currently</b> I am lecturer at the University of Alcalá in the Computer Engineering Department.</p>
+	<p></p>
+	</div>
+	</div></div>
+	
+	<div class="col s12 m6 l6"><div class="card hoverable"><div class="card-image waves-effect waves-block waves-light">
+	<img class="activator" src="images/alcala.jpg">
+	</div>
+	<div class="card-content"><span class="card-title activator grey-text text-darken-4">Brief skills &amp; CV<i class="material-icons right">keyboard_arrow_up</i></span>
+	<p><i class="link_icon mdi mdi-file-pdf" style="color: red"></i><a href="assets/CV-pmunoz.pdf" target="_blank">&nbsp;Download CV (pdf)</a></p>
+	</div>
+	<div class="card-reveal"><span class="card-title grey-text text-darken-4">Brief skills &amp; CV<i class="material-icons right">close</i></span>
+	<p></p>
+	<p>I do not see problems, only solutions. I am very tidy which helps me to handle complex systems. Also, I am a good architect for defining and implementing solutions that involve not only software but hardware (see for instance the MoBAr controller or the OGATE tool).</p>
+	<p>I can manage and supervise of small teams. Particularly, I supervised the LARES project (3 undergraduate students and 2 PhD), an perfomed an industrial research project for Profine Iberia S.A. (6 researchers) as a PI. and I worked in the organizing committee of the SMC-IT 2017 international conference. I participated in several research projects proposals and as a reveiwer in international conferences and journals.</p>
+	<p>I have experience in teaching (more than 1000 teaching hours in the university) and supervising undergraduate students (I supervised 17 B.D. and M.D. dissertations). I had co-advised 1 PhD (cum laude) and currently I co-advise two PhD students. I participated as speaker in multiple international conferences and as a session chair in two conferences.</p>
+	<p></p>
+	</div></div></div>
+	
+	<div class="col s12 m6 l6"><div class="card hoverable"><div class="card-image waves-effect waves-block waves-light">
+	<img class="activator" src="images/mlsw.jpg">
+	</div>
+	<div class="card-content"><span class="card-title activator grey-text text-darken-4">Geomagnetic indices forecasting using ML<i class="material-icons right">keyboard_arrow_up</i></span>
+	<p><i class="link_icon mdi mdi-file-pdf" style="color: red"></i><a href="https://doi.org/10.1029/2023SW003485" target="_blank">&nbsp;Last paper on Space Weather Journal</a></p>
+	</div>
+	<div class="card-reveal"><span class="card-title grey-text text-darken-4">Geomagnetic indices forecasting using ML<i class="material-icons right">close</i></span>
+	<p></p>
+	<p>Machine Learning applications are conquering new areas taking advantage of the availability of large amounts of data. Considering space probes such as ACE that are providing information about the solar wind at the L1 point for more than 25 years, it is feasible that Machine Learning approaches can be applied to the space weather context. We are working toward Deep Neural Networks models to forecast SYM-H and ASY-H indices (that quantify the disturbance of the Earth's magnetosphere) for the next 1 and 2 hours. The goal of the work is to drive an operational geomagnetic indices forecasting system that can minimize the damages caused by geomagnetic storms, providing an alert ahead enough to take containment measures. The operative models will be available at the <a href="http://www.senmes.es">Spanish Space Weather Service</a>.</p>
+	<p>A first model for <a href="https://doi.org/10.1029/2021SW002748">forecasting SYM-H and ASY-H</a> is published at Space Weather</p><p>Last model for <a href="https://doi.org/10.1029/2023SW003485">forecasting SYM-H</a> is published at Space Weather and available at <a href="http://www.senmes.es/pub/ISG/lastSYMforUAH.png">SeNMEs</a>.</p>
+	<p></p>
+	</div></div></div>
+	
+	<div class="col s12 m6 l6"><div class="card hoverable"><div class="card-image waves-effect waves-block waves-light">
+	<img class="activator" src="images/lares.jpg">
+	</div>
+	<div class="card-content"><span class="card-title activator grey-text text-darken-4">LARES<i class="material-icons right">keyboard_arrow_up</i></span>
+	<p><i class="link_icon mdi mdi-youtube-play" style="color: orange"></i><a href="https://www.antena3.com/noticias/sociedad/la-universidad-de-alcala-ha-desarrollado-un-prototipo-de-servicio-de-teleasistencia-para-atender-a-los-mayores_201909225d87db510cf21f4fcfa87dc1.html" target="_blank">&nbsp;Lares en Antena3 Noticias</a></p></div><div class="card-reveal"><span class="card-title grey-text text-darken-4">LARES<i class="material-icons right">close</i></span>
+	<p></p>
+	<p>LARES is an AI-based tele-assistance system that integrates a Wireless Sensor Network for receiving information of the environment and the dependent person, an autonomous robot able to take decisions based on the received information, and a Web-based system to provide telecare assistance. The objective LARES is to provide an advanced and low-cost telecare solution able to operate with passive users, i.e., the dependent person is monitored without requiring to perform any action from his/her side meanwhile the system provides access to the dependent person with an audio-video conection.</p>
+	<p>LARES was funded by the Junta de Comunidades de Castilla-La Mancha project "Supervisión y planificación en la asistencia de ancianos y discapacitados" (PEII-2014-015-A).</p>
+	<p>Research article: <a href="https://www.sciencedirect.com/science/article/pii/S1389041718302870" target="_blank"><i class="link_icon mdi mdi-file-pdf" style="color: red"></i>&nbsp;Cognitive Systems Research</a></p>
+	<p></p>
+	<ul>
+		<li>LARES in the Spanish media:</li>
+		<li><a href="https://www.youtube.com/watch?v=6cSWPd1M_pA">UAH promotional video on YouTube</a></li>
+		<li><a href="https://theconversation.com/este-asistente-robotico-facilita-la-vida-a-personas-dependientes-y-sus-cuidadores-120018">The Conversation</a></li>
+		<li><a href="http://portalcomunicacion.uah.es/diario-digital/entrevista/investigadores-de-la-uah-desarrollan-el-sistema-de-teleasistencia-lares-para-la-deteccion-inteligente-de-emergencias-en-el-hogar.html">UAH.es noticia</a></li>
+		<li><a href="https://play.cadenaser.com/audio/1568979530_744730">M.D. R-Moreno radio interview in Ser Henares</a></li>
+		<li><a href="https://twitter.com/LUCA_D3/status/1174633800376233990?s=20">Twitter</a></li>
+	</ul>
+	<p></p>
+	</div></div></div>
+	
+	<div class="col s12 m6 l6"><div class="card hoverable"><div class="card-image waves-effect waves-block waves-light">
+	<img class="activator" src="images/profine.png">
+	</div>
+	<div class="card-content"><span class="card-title activator grey-text text-darken-4">Quality control in PVC extrusion<i class="material-icons right">keyboard_arrow_up</i></span>
+	<p><i class="link_icon mdi mdi-youtube-play" style="color: red"></i><a href="https://youtube.com/shorts/7A_yCFqiL0E?feature=share" target="_blank">&nbsp;Development video</a></p>
+	</div>
+	<div class="card-reveal"><span class="card-title grey-text text-darken-4">Quality control in PVC extrusion<i class="material-icons right">close</i></span><p></p>
+	<p>We developed a prototype quality control module for PVC extrusion lines. The prototype was developed in less than 6 months using computer vision algorithms to detect faults on both visible faces of PVC frames. It was designed to be easily incorporated into a production line during operation, avoiding production stoppages. It was supported and tested by <a href="https://www.kommerling.es/">Profine Iberia S.A.</a></p>
+	<p></p>
+	</div></div></div>
+	
+	<div class="col s12 m6 l6"><div class="card hoverable"><div class="card-image waves-effect waves-block waves-light">
+	<img class="activator" src="images/hosplan.png">
+	</div><div class="card-content">
+	<span class="card-title activator grey-text text-darken-4">HosPlan: ML for predicting hospital's ED admissions
+	<i class="material-icons right">keyboard_arrow_up</i></span>
+	<p><i class="link_icon mdi mdi-file-pdf" style="color: red"></i><a href="https://doi.org/10.1007/s10844-023-00790-4" target="_blank">&nbsp;Paper on Journal of Intelligent Information Systems</a></p>
+	</div>
+	<div class="card-reveal"><span class="card-title grey-text text-darken-4">HosPlan: ML for predicting hospital's ED admissions<i class="material-icons right">close</i></span><p></p>
+	<p>Hospitals’ Emergency Departments (ED) have a great relevance in the health of the population. Properly managing the ED department requires to optimise the service, while maintaining a high quality care. In this regard, a key point is to know in advance how many patients will arrive to the service. In this project we aim to forecast ED admissions and hospitalisations for both seven days and four months ahead, providing a web application to handle the hospital's staff to avoid overcrowding. Our recent <a href="https://doi.org/10.1016/j.eswa.2023.122496" target="_blank">paper on Expert Systems with Applications</a> shows how the exogenous variables can affect the admissions forecasting to improve the model's accuracy.</p>
+	<p>HosPlan was funded by the Ministerio de Ciencia e Innovación (PID2019-109891RB-I00) and Junta de Comunidades de Castilla-La Mancha (SBPLY/19/180501/000024) project "Mejora de la gestión de recursos hospitalarios mediante la predicción de la demanda con Aprendizaje Automático y Planificación".</p>
+	<p></p>
+	</div></div></div>
+	
+	<div class="col s12 m6 l6"><div class="card hoverable"><div class="card-image waves-effect waves-block waves-light">
+	<img class="activator" src="images/ogate.png">
+	</div>
+	<div class="card-content"><span class="card-title activator grey-text text-darken-4">OGATE<i class="material-icons right">keyboard_arrow_up</i></span>
+	<p><i class="link_icon mdi mdi-youtube-play" style="color: red"></i><a href="https://www.youtube.com/watch?v=sqF0uFA1w_8" target="_blank">&nbsp;OGATE video</a></p>
+	</div><div class="card-reveal"><span class="card-title grey-text text-darken-4">OGATE<i class="material-icons right">close</i></span>
+	<p></p>
+	<p>OGATE - On-Ground Autonomy Test Environment is a framework for plan-based controllers assessment supported on a set of generally applicable metrics to entail evaluation of different aspects of autonomous robotics controllers. These metrics are operationalized in the OGATE software, a domain independent tool that automatically carries on with controller assessments.</p>
+	<p>The OGATE Research &amp; Development was funded by the European Space Agency (ESA) under the Networking and Partnering Initiative project <i>Cooperative Systems for Autonomous Exploration Missions</i>.</p>
+	<p>Research article: <a href="https://doi.org/10.1016/j.robot.2022.104325" target="_blank"><i class="link_icon mdi mdi-file-pdf" style="color: red"></i>&nbsp;OGATE: A framework for autonomous controllers assessment</a></p>
+	<p></p>
+	</div></div></div>
+	
+	<div class="col s12 m6 l6"><div class="card hoverable"><div class="card-image waves-effect waves-block waves-light">
+	<img class="activator" src="images/3dana.png">
+	</div>
+	<div class="card-content"><span class="card-title activator grey-text text-darken-4">3Dana - 3D Accurate Navigation Algorithm<i class="material-icons right">keyboard_arrow_up</i></span>
+	<p><i class="link_icon mdi mdi-file-pdf" style="color: red"></i><a href="https://doi.org/10.1016/j.engappai.2017.02.010" target="_blank">&nbsp;3Dana paper</a></p>
+	</div>
+	<div class="card-reveal"><span class="card-title grey-text text-darken-4">3Dana - 3D Accurate Navigation Algorithm<i class="material-icons right">close</i></span>
+	<p></p>
+	<p>3Dana - 3D Accurate Navigation Algorithm is a path planning algorithm focused on generating safer paths for mobile robots in uneven environments. It considers different parameters to maximize the path quality such as the maximum slope allowed by the robot and the heading changes during the path. These constraints allow discarding infeasible paths while minimizing the heading changes for route optimization.</p>
+	<p>Source code will be availabe at: <a href="https://github.com/munozp" target="_blank">GitHub</a></p><p>Research article: <a href="https://doi.org/10.1016/j.engappai.2017.02.010" target="_blank"><i class="link_icon mdi mdi-file-pdf" style="color: red"></i>&nbsp;3Dana article</a></p>
+	<p></p>
+	</div></div></div>
+	
+	<div class="col s12 m6 l6"><div class="card hoverable"><div class="card-image waves-effect waves-block waves-light">
+	<img class="activator" src="images/up2ta.png">
+	</div>
+	<div class="card-content"><span class="card-title activator grey-text text-darken-4">UP2TA - Unified Path &amp; Task Planning Architecture<i class="material-icons right">keyboard_arrow_up</i></span>
+	<p><i class="link_icon mdi mdi-youtube-play" style="color: red"></i><a href="https://www.youtube.com/watch?v=iRlg25wF6jw" target="_blank">&nbsp;UP2TA video</a></p>
+	</div>
+	<div class="card-reveal"><span class="card-title grey-text text-darken-4">UP2TA - Unified Path &amp; Task Planning Architecture<i class="material-icons right">close</i></span><p></p>
+	<p>UP2TA - Unified Path Planning &amp; Task Planning Architecture is an AI planner that interleaves path planning and task planning for mobile robotics applications. The planner integrates a modified PDDL planner with a path planning algorithm, combining domain-independent heuristics and a domain-specific heuristic for path planning. Then, UP2TA can generate shorter paths while performing hierarchical tasks in an efficient ordered way.</p>
+	<p>Source code is available at: <a href="https://github.com/munozp/up2ta" target="_blank">GitHub</a></p>
+	<p>Research article: <a href="https://doi.org/10.1016/j.robot.2016.04.010" target="_blank"><i class="link_icon mdi mdi-file-pdf" style="color: red"></i>&nbsp;UP2TA article</a></p>
+	<p></p>
+	</div></div></div>
+	
+	<div class="col s12 m6 l6"><div class="card hoverable"><div class="card-image waves-effect waves-block waves-light">
+	<img class="activator" src="images/mobar.jpg">
+	</div>
+	<div class="card-content"><span class="card-title activator grey-text text-darken-4">MoBAr - Model-Based Architecture<i class="material-icons right">keyboard_arrow_up</i></span>
+	<p><i class="link_icon mdi mdi-youtube-play" style="color: red"></i><a href="https://www.youtube.com/watch?v=igpn3k_gbRA" target="_blank">&nbsp;MoBAr video</a></p>
+	</div>
+	<div class="card-reveal"><span class="card-title grey-text text-darken-4">MoBAr - Model-Based Architecture<i class="material-icons right">close</i></span>
+	<p></p>
+	<p>MoBAr - Model-Based Architecture is an autonomous robotic controller that allows on-board planning and replanning for goal oriented autonomy. It relies on technologies such as PLEXIL to model the execution behaviours, or the action oriented planning language PDDL for the domain definition and the planning process. Based on these technologies MoBAr enables an easier deployment of the autonomous controller for different robotics platforms.</p>
+	<p>Source code is availabe for: <a href="https://github.com/munozp/mobar-turtlebot" target="_blank">TurtleBot</a> &amp; <a href="https://github.com/munozp/mobar-manipulator" target="_blank">5DoF manipulator</a></p>
+	<p>Research article: <a href="https://doi.org/10.1007/s10846-018-0810-z" target="_blank"><i class="link_icon mdi mdi-file-pdf" style="color: red"></i>&nbsp;MoBAr article</a></p>
+	<p></p>
+	</div></div></div>
+	
+	</div>
+	
+	<div class="row" id="publicationsItemContainer" style="display:none">
+	<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2Fmunozp%2Fmunozp.github.io%2Fmaster%2F_bibliography%2Fpmunoz.bib&jsonp=1"></script> 
+	</div>
+	
+	<div class="row" id="teachingItemContainer" style="display:none">
+	<h3>Curso académico 2023/24</h3>
+	<h5>Despacho: N243</h5>
+	<h5>Teléfono: 91 885 6825</h5>
+	<h5>1<sup>er</sup> cuatrimestre:</h5>
+	<ul class="sul">
+		<li style="list-style-type:square; margin-left:50px;">Fundamentos de tecnología de computadores (GIC y GII/INFOADE grupo B)</li>
+		<li style="list-style-type:square; margin-left:50px;">Laboratorio de fundamentos de tecnología de computadores</li>
+		<li style="list-style-type:square; margin-left:50px;">Fundamentos de computadores (GMC y GFIE)</li>
+		<li style="list-style-type:square; margin-left:50px;">Estructura y Diseño de Computadores de a Bordo (GFIE)</li>
+	</ul>
+	<h5>2º cuatrimestre:</h5>
+	<ul>
+		<li style="list-style-type:square; margin-left:50px;">Laboratorio de Estructura y Organización de Computadores (GIC)</li>
+	</ul>
+	<h5>
+</div>
+
+</div>
 
 <script>
 function showContainer(id)
@@ -33,64 +236,9 @@ function showContainer(id)
 				rows[i].style.display = "none";
 }
 </script>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
 
-    <div>
-        <div class="row">
-            <div id="profileColumn" class="col s12 l4 center">
-                <img id="profileImage" src="images/pmm.png" class="z-depth-3 circle responsive-img" />
-                
-                <h2 id="heroName" class="center-align">Pablo Muñoz Martínez</h2>
-                <h4 id="description" class="center-align">Lecturer at University of Alcalá</h4>
-				<h4 id="description" class="center-align"><a href="https://isg.aut.uah.es">Intelligent Systems Group researcher</a></h4>
-
-                <div id="socialLinkSection">
-                    <section class="tab">
-                        <div id="socialLinkContent">
-                        </div>
-                    </section>
-                </div>
-                
-                <a id="contactButton" class="waves-effect waves-grey btn-flat" onclick="showContainer('portfolio')"><p>Info & Projects</p></a>
-				<br>
-				<a id="contactButton" class="waves-effect waves-grey btn-flat" onclick="showContainer('publications')"><p>Publications</p></a>
-				<br>
-				<!--<a id="contactButton" class="waves-effect waves-grey btn-flat" onclick="showContainer('teaching')"><p>Teaching (in spanish)</p></a>-->
-                
-            </div>
-			
-            <div id="portfolioColumn" class="col s12 m12 l8">
-						 
-                <div class="row" id="portfolioItemContainer" style="display:block">
-				</div>
-			 	
-				<div class="row" id="publicationsItemContainer" style="display:none">
-				<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2Fmunozp%2Fmunozp.github.io%2Fmaster%2F_bibliography%2Fpmunoz.bib&jsonp=1"></script> 
-				</div>
-				
-				<div class="row" id="teachingItemContainer" style="display:none">
-				<h3>Curso académico 2023/24</h3>
-				<h5>Despacho: N243</h5>
-				<h5>Teléfono: 91 885 6825</h5>
-				<h5>1<sup>er</sup> cuatrimestre:</h5>
-				<ul class="sul">
-					<li style="list-style-type:square; margin-left:50px;">Tutorías: Lunes y martes de 19h a 20h y martes de 15h a 17h</li>
-					<li style="list-style-type:square; margin-left:50px;">Fundamentos de tecnología de computadores (GIC y GII grupo B)</li>
-					<li style="list-style-type:square; margin-left:50px;">Laboratorio de fundamentos de tecnología de computadores (B3 GIC)</li>
-				</ul>
-				<h5>2º cuatrimestre:</h5>
-				<ul>
-					<li style="list-style-type:square; margin-left:50px;">Tutorías: ND</li>
-					<li style="list-style-type:square; margin-left:50px;">Laboratorio de Estructura y Organización de Computadores (ND)</li>
-				</ul>
-				<h5>
-				</div>
-            </div>
-        </div>
-    </div>
-    
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>
